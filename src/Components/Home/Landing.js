@@ -2,6 +2,7 @@ import React from 'react'
 import "./Landing.css";
 import { Social } from './Social';
 import { Data } from './Data';
+import { ScrollDown } from './ScrollDown';
 
 export const Landing = () => {
   return (
@@ -14,6 +15,7 @@ export const Landing = () => {
 
           <Data/>
         </div>
+        <ScrollDown/>
       </div>
     </section>
   )
