@@ -55,11 +55,14 @@
 @media screen and (max-width: 992px) {
     .skills-container{
         grid-template-columns: max-content;
-        row-gap: 2rem;
+        row-gap: 2.5rem;
     }
   }
   
   @media screen and (max-width: 576px) {
+    .section-title{
+        padding-top: 4rem;
+    }
     .skills-container{
         grid-template-columns: 1fr;
     }
