@@ -1,4 +1,5 @@
 import React from 'react'
+import Text from '../Transition/text'
 
 export const Data = () => {
   return (
@@ -114,8 +115,10 @@ export const Data = () => {
 </defs>
             </svg>            
         </h1>
-        <h3 className='home-subtitle'>Full Stack Developer</h3>
-        <p className='home-description' style={{marginBottom:"var(--mb-3)"}}>I love coding. I use my passion and skills to build web projects.</p>
+        <h3 className='home-subtitle'>
+          <Text/>
+        </h3>
+        <p className='home-description' style={{marginBottom:"var(--mb-3)"}}>Eager to absorb knowledge, I may not yet be an expert, but my commitment to learning is unwavering at 100%.</p>
 
         <a href='#contact' className='button button--flex'>Say Hello
         <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
